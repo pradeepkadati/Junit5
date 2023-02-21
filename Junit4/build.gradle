@@ -1,0 +1,20 @@
+plugins {
+    id 'java'
+}
+
+group 'io.javabytes'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // https://mvnrepository.com/artifact/junit/junit
+    testImplementation 'junit:junit:4.4'
+
+}
+
+test {
+    useJUnitPlatform()
+}
